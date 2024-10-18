@@ -1,0 +1,294 @@
+{
+  "harflar": [
+    {
+      "id": 1,
+      "tavsif": "",
+      "harf": "ا",
+      "misollar": [
+        "َا", 
+        "ِا", 
+        "ُا"
+      ]
+    },{
+      "id": 2,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ر",
+      "misollar": [
+        "رَ", 
+        "رِ", 
+        "رُ"
+      ]
+    },
+    {
+      "id": 3,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ز",
+      "misollar": [
+        "زَ", 
+        "زِ", 
+        "زُ"
+      ]
+    },
+    {
+      "id": 4,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "م",
+      "misollar": [
+        "مَ", 
+        "مِ", 
+        "مُ"
+      ]
+    },
+    {
+      "id": 5,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ت",
+      "misollar": [
+        "تَ", 
+        "تِ", 
+        "تُ","مَتْ"
+      ]
+    },
+    {
+      "id": 6,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ن",
+      "uqilishMiloli":"",
+      "misollar": [
+        "نَ", 
+        "نِ", 
+        "نُ"
+      ]
+    },
+    {
+      "id": 7,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ي",
+      "misollar": [
+        "يَ", 
+        "يِ", 
+        "يُ"
+      ]
+    },
+    {
+      "id": 8,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ب",
+      "misollar": [
+        "بَ", 
+        "بِ", 
+        "بُ"
+      ]
+    },
+    {
+      "id": 9,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ك",
+      "misollar": [
+        "كَ", 
+        "كِ", 
+        "كُ"
+      ]
+    },
+    {
+      "id": 10,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ل",
+      "misollar": [
+        "لَ", 
+        "لِ", 
+        "لُ"
+      ]
+    },
+    {
+      "id": 11,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "و",
+      "misollar": [
+        "وَ", 
+        "وِ", 
+        "وُ"
+      ]
+    },
+    {
+      "id": 12,  
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ه",
+      "misollar": [
+        "هَ", 
+        "هِ", 
+        "هُ"
+      ]
+    },
+    {
+      "id": 13,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ف",
+      "misollar": [
+        "فَ", 
+        "فِ", 
+        "فُ"
+      ]
+    },
+    {
+      "id": 14,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ق",
+      "misollar": [
+        "قَ", 
+        "قِ", 
+        "قُ"
+      ]
+    },
+    {
+      "id": 15,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ش",
+      "misollar": [
+        "شَ", 
+        "شِ", 
+        "شُ"
+      ]
+    },
+    {
+      "id": 16,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "س",
+      "misollar": [
+        "سَ", 
+        "سِ", 
+        "سُ"
+      ]
+    },
+    {
+      "id": 17,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ث",
+      "misollar": [
+        "ثَ", 
+        "ثِ", 
+        "ثُ"
+      ]
+    },
+    {
+      "id": 18,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ص",
+      "misollar": [
+        "صَ", 
+        "صِ", 
+        "صُ"
+      ]
+    },
+    {
+      "id": 19,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ط",
+      "misollar": [
+        "طَ", 
+        "طِ", 
+        "طُ"
+      ]
+    },
+    {
+      "id": 20,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ج",
+      "misollar": [
+        "جَ", 
+        "جِ", 
+        "جُ"
+      ]
+    },
+    {
+      "id": 21,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ج",
+      "misollar": [
+        "جَ", 
+        "جِ", 
+        "جُ"
+      ]
+    },
+    {
+      "id": 22,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "خ",
+      "misollar": [
+        "خَ", 
+        "خِ", 
+        "خُ"
+      ]
+    },
+    {
+      "id": 23,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ح",
+      "misollar": [
+        "حَ", 
+        "حِ", 
+        "حُ"
+      ]
+    },
+    {
+      "id": 24,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "غ",
+      "misollar": [
+        "غَ", 
+        "غِ", 
+        "غُ"
+      ]
+    },
+    {
+      "id": 18,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ع",
+      "misollar": [
+        "عَ", 
+        "عِ", 
+        "عُ"
+      ]
+    },
+    {
+      "id": 22,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "د",
+      "misollar": [
+        "دَ", 
+        "دِ", 
+        "دُ"
+      ]
+    },
+    {
+      "id": 23,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ض",
+      "misollar": [
+        "ضَ", 
+        "ضِ", 
+        "ضُ"
+      ]
+    },
+    {
+      "id": 24,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ذ",
+      "misollar": [
+        "ذَ", 
+        "ذِ", 
+        "ذُ"
+      ]
+    },
+    {
+      "id": 25,
+      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "harf": "ظ",
+      "misollar": [
+        "ظَ", 
+        "ظِ", 
+        "ظُ"
+      ]
+    }
+  ]
+}
