@@ -60,7 +60,8 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     title: Text(
-                        style: TextStyle(fontSize: 40),
+                        style: TextStyle(
+                            fontSize: MediaQuery.of(context).size.width * .069),
                         " ${harflar[index]['id']}-dars ${harflar[index]['harf']} harfi"),
                   ),
                 ),

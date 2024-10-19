@@ -74,8 +74,10 @@ class _DetailesScreenState extends State<DetailesScreen> {
                 ),
                 const Spacer(),
                 Text(
+                  textDirection: TextDirection.rtl,
+
                   misol, // Directly using misol as a string
-                  style: const TextStyle(fontSize: 90),
+                  style: const TextStyle(fontSize: 90, fontFamily: "Arabic"),
                 ),
                 const SizedBox(height: 60),
                 Padding(
@@ -89,7 +91,7 @@ class _DetailesScreenState extends State<DetailesScreen> {
                             ? null
                             : () {
                                 _pageController.previousPage(
-                                  duration: const Duration(milliseconds: 300),
+                                  duration: const Duration(milliseconds: 1),
                                   curve: Curves.easeInOut,
                                 );
                               },
@@ -104,7 +106,7 @@ class _DetailesScreenState extends State<DetailesScreen> {
                             ? null
                             : () {
                                 _pageController.nextPage(
-                                  duration: const Duration(milliseconds: 300),
+                                  duration: const Duration(milliseconds: 1),
                                   curve: Curves.easeInOut,
                                 );
                               },
