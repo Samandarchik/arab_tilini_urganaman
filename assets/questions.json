@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "question":  "نَ",
+      "variants": {
+        "A": "Naasdas",
+        "B": "Ni",
+        "C": "Nun",
+        "D": "Nu"
+      },
+      "answer": "Naasdas"
+    },
+    {
+      "question": "نِ",
+      "variants": {
+        "A": "Na",
+        "B": "Ni",
+        "C": "Nun",
+        "D": "Nu"
+      },
+      "answer": "Ni"
+    },
+    {
+      "question": "نِ",
+      "variants": {
+        "A": "Na",
+        "B": "Ni",
+        "C": "Nun",
+        "D": "Nu"
+      },
+      "answer": "Ni"
+    }
+  ]
+}

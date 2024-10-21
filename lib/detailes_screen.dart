@@ -45,44 +45,57 @@ class _DetailesScreenState extends State<DetailesScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text("${widget.index + 1}-dars  "),
         actions: [
-          GestureDetector(
+          TextButton(
+            onPressed: () {},
             child: Text(
               harf,
-              style: TextStyle(fontSize: 50),
+              style: TextStyle(fontSize: 33, color: Colors.white),
             ),
           )
         ],
       ),
-      /** */
-      body: PageView.builder(
-        controller: _pageController,
-        itemCount: misollar.length,
-        itemBuilder: (context, pageIndex) {
-          var misol = misollar[pageIndex];
+      body: SafeArea(
+        child: PageView.builder(
+          controller: _pageController,
+          itemCount: misollar.length,
+          itemBuilder: (context, pageIndex) {
+            var misol = misollar[pageIndex];
 
-          return Padding(
-            padding: const EdgeInsets.all(20.0),
-            child: Column(
-              children: [
-                const SizedBox(height: 10),
-                Text(
-                  tavsif,
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(fontSize: 19),
-                ),
-                const Spacer(),
-                Text(
-                  textDirection: TextDirection.rtl,
+            return Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: Column(
+                children: [
+                  RichText(
+                      text: TextSpan(
+                          style: TextStyle(
+                            fontSize: 50,
+                          ),
+                          children: [
+                        TextSpan(text: "ب"),
+                        TextSpan(text: "ك"),
+                        TextSpan(
+                            text: "ت",
+                            style: TextStyle(
+                                color: Colors.black, fontFamily: "Arabic")),
+                      ])),
+                  const SizedBox(height: 10),
+                  Text(
+                    tavsif,
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(fontSize: 19),
+                  ),
+                  const Spacer(),
+                  Text(
+                    textDirection: TextDirection.rtl,
 
-                  misol, // Directly using misol as a string
-                  style: const TextStyle(fontSize: 90, fontFamily: "Arabic"),
-                ),
-                const SizedBox(height: 60),
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 30.0),
-                  child: Row(
+                    misol, // Directly using misol as a string
+                    style: const TextStyle(fontSize: 90, fontFamily: "Arabic"),
+                  ),
+                  const SizedBox(height: 60),
+                  Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       IconButton(
@@ -111,15 +124,17 @@ class _DetailesScreenState extends State<DetailesScreen> {
                                 );
                               },
                       ),
-                      const Icon(Icons.play_arrow, size: 35),
-                      const Icon(Icons.autorenew, size: 35),
+                      IconButton(
+                        onPressed: () {},
+                        icon: const Icon(Icons.play_arrow, size: 35),
+                      )
                     ],
-                  ),
-                )
-              ],
-            ),
-          );
-        },
+                  )
+                ],
+              ),
+            );
+          },
+        ),
       ),
     );
   }

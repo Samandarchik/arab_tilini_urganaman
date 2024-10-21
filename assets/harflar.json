@@ -2,107 +2,234 @@
   "harflar": [
     {
       "id": 1,
-      "tavsif": "",
+      "tavsif": "Alif harfi so'z boshida bog'lanadi.",
       "harf": "ا",
       "misollar": [
         "اَ", 
         "اِ",
         "اُ"
       ]
-    },{
+    },
+    {
       "id": 2,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "\"Po\" - биз урганаётган араб тилида ягона титровчи харф саналади. Талаффузи узбек тилидаги \"p\" харфига ухшаш, бирок араб тилидагиз харфи каттикрок ва тил учининг титраши билан фаркланади. Эслатма: Факат фатха холатда \"ра\" эмас, балки \"а\"ни \"о\" килиб, \"ро\" деб укилади. \"Po\" харфини талаффузи \"тартил\" китобимизда батафзил берилган.",
       "harf": "ر",
       "misollar": [
         "رَ", 
         "رِ", 
-        "رُ"
+        "رُ", 
+        "اَرْ", 
+        "اِرْ", 
+        "اُرْ"
       ]
     },
     {
       "id": 3,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Za harfi so'z boshida va ortasida bog'lanadi. so'z oxirda bog'lanmaydi.",
       "harf": "ز",
       "misollar": [
         "زَ", 
         "زِ", 
-        "زُ","أَزْ","اِزْ","اُزْ","زَرْ","زِرْ","زُرْ","اَزْرُ","اِزْرُ","اُزْرُ","اُرْزُ"
+        "زُ", 
+        "أَزْ", 
+        "اِزْ", 
+        "اُزْ", 
+        "زَرْ", 
+        "زِرْ", 
+        "زُرْ", 
+        "اَزْرُ", 
+        "اِزْرُ", 
+        "اُزْرُ", 
+        "اُرْزُ"
       ]
     },
     {
       "id": 4,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Mim harfi hama holatda bog'lanadi",
       "harf": "م",
       "misollar": [
         "مَ", 
         "مِ", 
-        "مُ","اَمْ","اِمْ","اُمْ","مُرْ","مُزْ","رُمْ","اَمَرَ","اُمِرَ","اَمْرُ","اِمْرُ","رَمْزُ","اِرْمِ","مَرْمَرْ","رَمْرَمْ","زَمْزَمْ"
+        "مُ", 
+        "اَمْ", 
+        "اِمْ", 
+        "اُمْ", 
+        "مُرْ", 
+        "مُزْ", 
+        "رُمْ", 
+        "اَمَرَ", 
+        "اُمِرَ", 
+        "اَمْرُ", 
+        "اِمْرُ", 
+        "رَمْزُ", 
+        "اِرْمِ", 
+        "مَرْمَرْ", 
+        "رَمْرَمْ", 
+        "زَمْزَمْ"
       ]
     },
     {
       "id": 5,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Ta harfi hama holatda bog'lanadi",
       "harf": "ت",
       "misollar": [
         "تَ", 
         "تِ", 
-        "تُ","مَتْ","مِتْ","مُتْ","تَمَرْ","تَرِرْ","زُرْتَ","اَمَرْتِ","مَرَرْتُ","اُمِرْتُ","اَمَرَتْ","اَمَرْتُمْ","أُمِرْتُمْ","مَرَرْتُمْ"
+        "تُ", 
+        "مَتْ", 
+        "مِتْ", 
+        "مُتْ", 
+        "تَمَرْ", 
+        "تَرِرْ", 
+        "زُرْتَ", 
+        "اَمَرْتِ", 
+        "مَرَرْتُ", 
+        "اُمِرْتُ", 
+        "اَمَرَتْ", 
+        "اَمَرْتُمْ", 
+        "أُمِرْتُمْ", 
+        "مَرَرْتُمْ"
       ]
     },
     {
       "id": 6,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Nun harfi hama holatda bog'lanadi",
       "harf": "ن",
-      "uqilishMiloli":"",
       "misollar": [
         "نَ", 
         "نِ", 
-        "نُ","اِنْ","اِنْ","زِرْ","مَنْ","مِنْ","نَمْ","اَنْتَ","نِمْتَ","اَنْتُمْ","نِمْتُمْ","نَزِرُ","نَزِنُ","اَمَرْنَ","اُمِرْنَ","مَرَرْنَ","اَمْرَرْنَ"
+        "نُ", 
+        "اِنْ", 
+        "زِرْ", 
+        "مَنْ", 
+        "مِنْ", 
+        "نَمْ", 
+        "اَنْتَ", 
+        "نِمْتَ", 
+        "اَنْتُمْ", 
+        "نِمْتُمْ", 
+        "نَزِرُ", 
+        "نَزِنُ", 
+        "اَمَرْنَ", 
+        "اُمِرْنَ", 
+        "مَرَرْنَ", 
+        "اَمْرَرْنَ"
       ]
     },
     {
       "id": 7,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Ya harfi hama holatda bog'lanadi",
       "harf": "ي",
       "misollar": [
         "يَ", 
         "يِ", 
-        "يُ","اَيْ","اَيْمُ","زَيْتُ","مَيْتُ","رَاْيُ","رَمْيُ","يَمَنْ","مَرْيَمْ","مَيْزَرْ","مَيْمَنْ","اَيْمَنْ","اَمَرَيْنِ","زَيْتَيْنِ","اَيْمَيْنِ","مَيْتَيْنِ"
+        "يُ", 
+        "اَيْ", 
+        "اَيْمُ", 
+        "زَيْتُ", 
+        "مَيْتُ", 
+        "رَاَيْ", 
+        "رَمْيُ", 
+        "يَمَنْ", 
+        "مَرْيَمْ", 
+        "مَيْЗَرْ", 
+        "مَيْمَنْ", 
+        "اَيْمَنْ", 
+        "اَمَرَيْنِ", 
+        "زَيْتَيْنِ", 
+        "اَيْمَيْنِ", 
+        "مَيْتَيْنِ"
       ]
     },
     {
       "id": 8,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Ba harfi hama holatda bog'lanadi",
       "harf": "ب",
       "misollar": [
         "بَ", 
         "بِ", 
-        "بُ","اَبْ","اِبْنُ","بِنْتُ","بَيْتُ","بَيْنُ","رَيْبُ","زَيْنَبْ","بَرْبَرْ","بَيْرَمْ","اَبْرَمْ","مِنْبَرْ","بِاَمْرَيْنِ","بِبَيْتَيْنِ","مِنْبَرَيْنِ","زَيْنَبَيْنِ"
+        "بُ", 
+        "اَبْ", 
+        "اِبْنُ", 
+        "بِنْتُ", 
+        "بَيْتُ", 
+        "بَيْنُ", 
+        "رَيْبُ", 
+        "زَيْنَبْ", 
+        "بَرْبَرْ", 
+        "بَيْرَمْ", 
+        "اَبْرَمْ", 
+        "مِنْبَرْ", 
+        "بِاَمْرَيْنِ", 
+        "بِبَيْتَيْنِ", 
+        "مِنْبَرَيْنِ", 
+        "زَيْنَبَيْنِ"
       ]
     },
     {
       "id": 9,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Kaf harfi hama holatda bog'lanadi",
       "harf": "ك",
       "misollar": [
         "كَ", 
         "كِ", 
-        "كُ","كَمْ","كُمْ","كُنْ","كَيْ","بَكْرُ","مَكْرُ","كَرْمُ","كَنْزُ","تَرْكُ","كَتَبَ","يَكْتُبُ","تَرَكَ","يَتْرُكُ","كَتَبْتُمْ","اَمَرَكَ","اَمَرَتْكَ","كُنْتُ","مُمْكِنْ"
+        "كُ", 
+        "كَمْ", 
+        "كُمْ", 
+        "كُنْ", 
+        "كَيْ", 
+        "بَكْرُ", 
+        "مَكْرُ", 
+        "كَرْمُ", 
+        "كَنْزُ", 
+        "تَرْكُ", 
+        "كَتَبَ", 
+        "يَكْتُبُ", 
+        "تَرَكَ", 
+        "يَتْرُكُ", 
+        "كَتَبْتُمْ", 
+        "اَمَرَكَ", 
+        "اَمَرَتْكَ", 
+        "كُنْتُ", 
+        "مُمْكِنْ"
       ]
     },
     {
       "id": 10,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Lam harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "ل",
       "misollar": [
         "لَ", 
         "لِ", 
-        "لُ"
+        "لُ", 
+        "ال", 
+        "بال", 
+        "لم", 
+        "لُن", 
+        "كل", 
+        "نَزَلَ", 
+        "لاَزِمَ", 
+        "كَمُلَ", 
+        "أَنزَلَ", 
+        "اَلزَمَ", 
+        "أَكْمَلَ", 
+        "أَكَلَت", 
+        "أَكَلْنَا", 
+        "أَكَلْتَ", 
+        "أَكَلْتِ", 
+        "أَكَلْتُ", 
+        "أَكَلْتُمْ", 
+        "بُلْبُل", 
+        "يَعْلَمْلَم", 
+        "تَزَلْزَلَ", 
+        "تَزَلْزَلَ", 
+        "يَتَزَلْزَلُ", 
+        "مُتَزَلْزِل"
       ]
     },
     {
       "id": 11,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Vav harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "و",
       "misollar": [
         "وَ", 
@@ -112,7 +239,7 @@
     },
     {
       "id": 12,  
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Ha harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "ه",
       "misollar": [
         "هَ", 
@@ -122,7 +249,7 @@
     },
     {
       "id": 13,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Fa harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "ف",
       "misollar": [
         "فَ", 
@@ -132,7 +259,7 @@
     },
     {
       "id": 14,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Qaf harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "ق",
       "misollar": [
         "قَ", 
@@ -142,7 +269,7 @@
     },
     {
       "id": 15,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Shin harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "ش",
       "misollar": [
         "شَ", 
@@ -152,7 +279,7 @@
     },
     {
       "id": 16,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Sin harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "س",
       "misollar": [
         "سَ", 
@@ -162,7 +289,7 @@
     },
     {
       "id": 17,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Tha harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "ث",
       "misollar": [
         "ثَ", 
@@ -172,7 +299,7 @@
     },
     {
       "id": 18,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Sad harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "ص",
       "misollar": [
         "صَ", 
@@ -182,7 +309,7 @@
     },
     {
       "id": 19,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Ta harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "ط",
       "misollar": [
         "طَ", 
@@ -192,7 +319,7 @@
     },
     {
       "id": 20,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Jim harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "ج",
       "misollar": [
         "جَ", 
@@ -202,7 +329,7 @@
     },
     {
       "id": 21,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Jim harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "ج",
       "misollar": [
         "جَ", 
@@ -212,7 +339,7 @@
     },
     {
       "id": 22,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Kha harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "خ",
       "misollar": [
         "خَ", 
@@ -222,7 +349,7 @@
     },
     {
       "id": 23,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Ha harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "ح",
       "misollar": [
         "حَ", 
@@ -232,7 +359,7 @@
     },
     {
       "id": 24,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "tavsif": "Ghayn harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "غ",
       "misollar": [
         "غَ", 
@@ -241,8 +368,8 @@
       ]
     },
     {
-      "id": 18,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "id": 25,
+      "tavsif": "Ayn harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "ع",
       "misollar": [
         "عَ", 
@@ -251,8 +378,8 @@
       ]
     },
     {
-      "id": 22,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "id": 26,
+      "tavsif": "Dal harfi faqat boshida bog'lanadi.",
       "harf": "د",
       "misollar": [
         "دَ", 
@@ -261,8 +388,8 @@
       ]
     },
     {
-      "id": 23,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "id": 27,
+      "tavsif": "Dad harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "ض",
       "misollar": [
         "ضَ", 
@@ -271,8 +398,8 @@
       ]
     },
     {
-      "id": 24,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "id": 28,
+      "tavsif": "Dhal harfi faqat boshida bog'lanadi.",
       "harf": "ذ",
       "misollar": [
         "ذَ", 
@@ -281,8 +408,8 @@
       ]
     },
     {
-      "id": 25,
-      "tavsif": "Shin harfi suz boshida va ortasida bog'lanadi.",
+      "id": 29,
+      "tavsif": "Zha harfi so'z boshida, ortasida va oxirida bog'lanadi.",
       "harf": "ظ",
       "misollar": [
         "ظَ", 

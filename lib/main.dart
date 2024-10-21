@@ -1,6 +1,7 @@
 import 'package:arab_tilini_urganaman/home_page.dart';
 import 'package:arab_tilini_urganaman/settings_screen.dart';
 import 'package:arab_tilini_urganaman/test_screen.dart';
+import 'package:arab_tilini_urganaman/question.dart';
 
 import 'package:flutter/material.dart';
 
@@ -17,11 +18,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           scaffoldBackgroundColor: Colors.white,
           appBarTheme: AppBarTheme(
+              centerTitle: true,
               foregroundColor: Colors.white,
               color: Colors.blue,
               titleTextStyle: TextStyle(color: Colors.white, fontSize: 25))),
       debugShowCheckedModeBanner: false,
-      home: MyHomePage(),
+      home: TestCar(),
     );
   }
 }
