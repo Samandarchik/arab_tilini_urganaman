@@ -68,20 +68,6 @@ class _DetailesScreenState extends State<DetailesScreen> {
               padding: const EdgeInsets.all(20.0),
               child: Column(
                 children: [
-                  RichText(
-                      text: TextSpan(
-                          style: TextStyle(
-                            fontSize: 50,
-                          ),
-                          children: [
-                        TextSpan(text: "ب"),
-                        TextSpan(text: "ك"),
-                        TextSpan(
-                            text: "ت",
-                            style: TextStyle(
-                                color: Colors.black, fontFamily: "Arabic")),
-                      ])),
-                  const SizedBox(height: 10),
                   Text(
                     tavsif,
                     textAlign: TextAlign.center,

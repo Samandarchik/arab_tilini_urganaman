@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.example.arab_tilini_urganaman"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "25.3.0"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8

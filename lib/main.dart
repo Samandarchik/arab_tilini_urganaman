@@ -1,7 +1,8 @@
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:arab_tilini_urganaman/home_dart.dart';
 import 'package:arab_tilini_urganaman/home_page.dart';
 import 'package:arab_tilini_urganaman/settings_screen.dart';
 import 'package:arab_tilini_urganaman/test_screen.dart';
-import 'package:arab_tilini_urganaman/question.dart';
 
 import 'package:flutter/material.dart';
 
@@ -14,21 +15,29 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(
-          scaffoldBackgroundColor: Colors.white,
-          appBarTheme: AppBarTheme(
-              centerTitle: true,
-              foregroundColor: Colors.white,
-              color: Colors.blue,
-              titleTextStyle: TextStyle(color: Colors.white, fontSize: 25))),
-      debugShowCheckedModeBanner: false,
-      home: TestCar(),
+    return ScreenUtilInit(
+      designSize: const Size(375, 812), // Figma yoki dizayn o'lchami
+      minTextAdapt: true,
+      splitScreenMode: true,
+      builder: (context, child) {
+        return MaterialApp(
+          theme: ThemeData(
+              scaffoldBackgroundColor: kWhite,
+              appBarTheme: const AppBarTheme(
+                  backgroundColor: kWhite,
+                  centerTitle: true,
+                  surfaceTintColor: kWhite)),
+          debugShowCheckedModeBanner: false,
+          home: const HarflarScreen(),
+        );
+      },
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key});
+
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
@@ -49,15 +58,15 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.white,
         selectedItemColor: const Color.fromARGB(255, 33, 135, 243),
         iconSize: 25,
-        unselectedLabelStyle: TextStyle(fontSize: 20),
-        selectedLabelStyle: TextStyle(fontSize: 20),
+        unselectedLabelStyle: const TextStyle(fontSize: 20),
+        selectedLabelStyle: const TextStyle(fontSize: 20),
         currentIndex: _currentIndex,
         onTap: (index) {
           setState(() {
             _currentIndex = index;
           });
         },
-        items: [
+        items: const [
           BottomNavigationBarItem(
             icon: Icon(
               Icons.menu_book,
@@ -81,3 +90,5 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+const Color kWhite = Colors.white;
