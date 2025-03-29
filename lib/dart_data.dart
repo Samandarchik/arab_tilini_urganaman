@@ -1,14 +1,15 @@
 class Harf {
   int id;
-  String tavsif;
+
+  Map<dynamic, dynamic>? info;
   String harf;
   List<String> misollar;
   List<String> uzbekchaUqilishi; // Yangi maydon
 
   Harf({
     required this.id,
-    required this.tavsif,
     required this.harf,
+    required this.info,
     required this.misollar,
     required this.uzbekchaUqilishi, // Yangi maydon
   });
@@ -16,7 +17,8 @@ class Harf {
   factory Harf.fromJson(Map<String, dynamic> json) {
     return Harf(
       id: json['id'],
-      tavsif: json['tavsif'],
+      info: json['info'],
+
       harf: json['harf'],
       misollar: List<String>.from(json['misollar']),
       uzbekchaUqilishi:
@@ -27,7 +29,6 @@ class Harf {
   Map<String, dynamic> toJson() {
     return {
       'id': id,
-      'tavsif': tavsif,
       'harf': harf,
       'misollar': misollar,
       'uzbekchaUqilishi': uzbekchaUqilishi, // Yangi maydon
@@ -37,14 +38,25 @@ class Harf {
 
 final List<Harf> harflar = [
   {
-    "id": 1,
+    "id": 0,
     "tavsif": "Alif harfi so'z boshida bog'lanadi.",
-
     "harf": "ا",
+    "image": "assets/images/harf_17.jpg",
     "misollar": [
       "اَ",
       "اِ",
       "اُ",
+    ],
+    "uzbekchaUqilishi": [
+      "A",
+      "I",
+      "U",
+    ]
+  },
+  {
+    "id": 1,
+    "harf": "ر",
+    "misollar": [
       "رَ",
       "رِ",
       "رُ",
@@ -52,24 +64,14 @@ final List<Harf> harflar = [
       "اِرْ",
       "اُرْ",
     ],
-    "uzbekchaUqilishi": [
-      "A",
-      "I",
-      "U",
-      "Ro",
-      "Ri",
-      "Ru",
-      "Ar",
-      "Ir",
-      "Ur"
-    ], // Yangi maydon
+    "uzbekchaUqilishi": ["Ro", "Ri", "Ru", "Ar", "Ir", "Ur"], // Yangi maydon
     "kirilchaUqilishi":[
     ]
   },
   {
     "id": 2,
-    "tavsif":
-        "Za harfi so'z boshida va ortasida bog'lanadi. so'z oxirda bog'lanmaydi.",
+
+    "image": "assets/images/harf_20.jpg",
     "harf": "ز",
     "misollar": [
       "زَ",
@@ -104,8 +106,9 @@ final List<Harf> harflar = [
   },
   {
     "id": 3,
-    "tavsif": "Mim harfi hama holatda bog'lanadi",
+
     "harf": "م",
+    "image": "assets/images/harf_27.jpg",
     "misollar": [
       "مَ",
       "مِ",
@@ -149,7 +152,7 @@ final List<Harf> harflar = [
   },
   {
     "id": 4,
-    "tavsif": "Ta harfi hama holatda bog'lanadi",
+
     "harf": "ت",
     "misollar": [
       "تَ",
@@ -190,8 +193,8 @@ final List<Harf> harflar = [
   },
   {
     "id": 5,
-    "tavsif": "Nun harfi hama holatda bog'lanadi",
-    "harf": "ن",
+
+    "harf": "ن|",
     "misollar": [
       "نَ",
       "نِ",
@@ -235,7 +238,7 @@ final List<Harf> harflar = [
   },
   {
     "id": 6,
-    "tavsif": "Ya harfi hama holatda bog'lanadi",
+
     "harf": "ي",
     "misollar": [
       "يَ",
@@ -280,7 +283,7 @@ final List<Harf> harflar = [
   },
   {
     "id": 7,
-    "tavsif": "Ba harfi hama holatda bog'lanadi",
+
     "harf": "ب",
     "misollar": [
       "بَ",
@@ -325,7 +328,7 @@ final List<Harf> harflar = [
   },
   {
     "id": 8,
-    "tavsif": "Kaf harfi hama holatda bog'lanadi",
+
     "harf": "ك",
     "misollar": [
       "كَ",
@@ -376,7 +379,7 @@ final List<Harf> harflar = [
   },
   {
     "id": 9,
-    "tavsif": "Lam harfi so'z boshida, ortasida va oxirida bog'lanadi.",
+
     "harf": "ل",
     "misollar": [
       "لَ",
@@ -437,7 +440,6 @@ final List<Harf> harflar = [
   },
   {
     "id": 10,
-    "tavsif": "Vov harfi so'z o'rtasida va oxirida bog'lanmaydi.",
     "harf": "و",
     "misollar": [
       "وَ",
@@ -517,7 +519,6 @@ final List<Harf> harflar = [
   },
   {
     "id": 11,
-    "tavsif": "Harf va harakatlar bilan tuzilgan misollar.",
     "harf": "ه",
     "misollar": [
       "هَ",
@@ -591,7 +592,6 @@ final List<Harf> harflar = [
   },
   {
     "id": 12,
-    "tavsif": "Fa harfi va boshqa so'zlar misollar bilan.",
     "harf": "ف",
     "misollar": [
       "فَ",
@@ -677,7 +677,6 @@ final List<Harf> harflar = [
   },
   {
     "id": 13,
-    "tavsif": "Qaf harfi va boshqa murakkab so'zlar misollar bilan.",
     "harf": "ق",
     "misollar": [
       "قَ",
@@ -757,7 +756,6 @@ final List<Harf> harflar = [
   },
   {
     "id": 14,
-    "tavsif": "Shin harfi va murakkab so'zlar misollar bilan.",
     "harf": "ش",
     "misollar": [
       "شَ",
@@ -840,7 +838,6 @@ final List<Harf> harflar = [
   },
   {
     "id": 15,
-    "tavsif": "Sin harfi va murakkab so'zlar misollar bilan.",
     "harf": "س",
     "misollar": [
       "سَ",
@@ -920,7 +917,6 @@ final List<Harf> harflar = [
   },
   {
     "id": 16,
-    "tavsif": "ث harfi bilan bog'langan misollar va o'qilishlari.",
     "harf": "ث",
     "misollar": [
       "ثَ",
@@ -1012,7 +1008,6 @@ final List<Harf> harflar = [
   },
   {
     "id": 17,
-    "tavsif": "Sod harfi bilan bog'langan qo'shimcha misollar va o'qilishlari.",
     "harf": "ص",
     "misollar": [
       "صَ",
@@ -1074,7 +1069,6 @@ final List<Harf> harflar = [
   },
   {
     "id": 18,
-    "tavsif": "To harfi so'z boshida, o'rtasida va oxirida bog'lanadi.",
     "harf": "ط",
     "misollar": [
       "طَ",
@@ -1159,6 +1153,596 @@ final List<Harf> harflar = [
       "Тароф-Тороф",
       "Сабту-Сабту",
       "Мустатир-Мустатир"
+    ]
+  },
+  {
+    "id": 19,
+    "harf": "ج",
+    "misollar": [
+      "جَ",
+      "جِ",
+      "جُ",
+      "جَمْ",
+      "جَرْ",
+      "جِنْ",
+      "جَبْ",
+      "جُلْ",
+      "جَبَلْ",
+      "جَمَلْ",
+      "أَجْرُ",
+      "فَجْرُ",
+      "جَوْهَرْ",
+      "جَوْرَبْ",
+      "تَجَارَبَ",
+      "يَتَجَارَبُ",
+      "اِسْتَجْلَبَ",
+      "يَسْتَجْلِبُ"
+    ],
+    "uzbekchaUqilishi": [
+      "Ja",
+      "Ji",
+      "Ju",
+      "Jam",
+      "Jar",
+      "Jin",
+      "Jab",
+      "Jul",
+      "Jabal",
+      "Jamal",
+      "Ajru",
+      "Fajru",
+      "Javhar",
+      "Javrob",
+      "Tajavroba",
+      "Yatajvrobu",
+      "Istajlaba",
+      "Yastajlibu"
+    ],
+    "kirilchaUqilishi": [
+      "Жа",
+      "Жи",
+      "Жу",
+      "Жам",
+      "Жар",
+      "Жин",
+      "Жаб",
+      "Жул",
+      "Жабал",
+      "Жамал",
+      "Ажру",
+      "Фажру",
+      "Жавҳар",
+      "Жавроб",
+      "Тажавроба",
+      "Ятажавробу",
+      "Истажлаба",
+      "Ястажлибу"
+    ]
+  },
+  {
+    "id": 20,
+    "harf": "خ",
+    "misollar": [
+      "خَ",
+      "خِ",
+      "خُ",
+      "خَبْ",
+      "خَلْ",
+      "خَرَجَ",
+      "خَبَرْ",
+      "خُشَبْ",
+      "خُلَفْ",
+      "خُتْمُ",
+      "خَمْرُ",
+      "خَوْفُ",
+      "مَخْرَجْ",
+      "مُخْبِرْ",
+      "أَجْرَجَ",
+      "يُجْرِجُ",
+      "أَزْبَرَ",
+      "يُخْبِرُ",
+      "اِسْتَخْبَرَ",
+      "اِسْتَخْرَجَ",
+      "يَسْتَجْرِبُ"
+    ],
+    "uzbekchaUqilishi": [
+      "Xo",
+      "Xi",
+      "Xu",
+      "Xob",
+      "Xol",
+      "Xoraj",
+      "Xobar",
+      "Xushab",
+      "Xulaf",
+      "Xotmu",
+      "Xomru",
+      "Xovfu",
+      "Maxroj",
+      "Muxbir",
+      "Ajroja",
+      "Yujriju",
+      "Azbaro",
+      "Yuxbiru",
+      "Istaxbaro",
+      "Istaxroja",
+      "Yastajribu"
+    ],
+    "kirilchaUqilishi": [
+      "Хо",
+      "Хи",
+      "Ху",
+      "Хоб",
+      "Хол",
+      "Хораж",
+      "Хобар",
+      "Хушаб",
+      "Хулаф",
+      "Хотму",
+      "Хомру",
+      "Ховфу",
+      "Махрож",
+      "Мухбир",
+      "Ажрожа",
+      "Южрижю",
+      "Азбаро",
+      "Юхбиру",
+      "Истахбаро",
+      "Истахрожа",
+      "Ястажрибу"
+    ]
+  },
+  {
+    "id": 21,
+    "harf": "ح",
+    "misollar": [
+      "حَ",
+      "حِ",
+      "حُ",
+      "حَيْ",
+      "حِلْ",
+      "حَسَن",
+      "حَسَب",
+      "حَسَف",
+      "مُحْسِن",
+      "مَحْشَر",
+      "مِنْحَر",
+      "مَحْفَل",
+      "أَحْسَن",
+      "اِمْتَحَنَ",
+      "يَمْتَحِنُ",
+      "اِحْتَمَلَ",
+      "يَحْتَمِلُ",
+      "اِسْتَحْسَنَ",
+      "يَسْتَحْسِنُ",
+      "اِحْرَنْجَمَ",
+      "يَحْرَنْجِمُ"
+    ],
+    "uzbekchaUqilishi": [
+      "Xa",
+      "Xi",
+      "Xu",
+      "Xay",
+      "Xil",
+      "Xasan",
+      "Xasab",
+      "Xasaf",
+      "Muxsin",
+      "Maxshar",
+      "Minxar",
+      "Maxfal",
+      "Axsan",
+      "Imtaxana",
+      "Yamtaxinu",
+      "Ixtamala",
+      "Yaxtamilu",
+      "Istaxsana",
+      "Yastaxsinu",
+      "Ixronjama",
+      "Yaxronjimu"
+    ],
+    "kirilchaUqilishi": [
+      "Ха",
+      "Хи",
+      "Ху",
+      "Хай",
+      "Хил",
+      "Хасан",
+      "Хасаб",
+      "Хасаф",
+      "Мухсин",
+      "Махшар",
+      "Минхар",
+      "Махфал",
+      "Ахсан",
+      "Имтахана",
+      "Ямтахину",
+      "Ихтамала",
+      "Яхтамилу",
+      "Истахсана",
+      "Ястахсину",
+      "Ихранжама",
+      "Яхранжиму"
+    ]
+  },
+  {
+    "id": 22,
+    "harf": "غ",
+    "misollar": [
+      "غَ",
+      "غِ",
+      "غُ",
+      "غَوْم",
+      "غَوْب",
+      "غِلْ",
+      "غَيْرُ",
+      "بَغْلُ",
+      "فَرْغُ",
+      "غَوْبْغَوْب",
+      "مَبْلَغ",
+      "مَغْرِب",
+      "اِغْلِبْ",
+      "اِغْفِرْ",
+      "اِسْتَغْوَلَ",
+      "يَسْتَغْوِلُ",
+      "اِسْتَغْفَرَ",
+      "يَسْتَغْفِرُ"
+    ],
+    "uzbekchaUqilishi": [
+      "G‘o",
+      "G‘i",
+      "G‘u",
+      "G‘om",
+      "G‘ob",
+      "G‘il",
+      "G‘oyru",
+      "Bag‘lu",
+      "Farg‘u",
+      "G‘obg‘ob",
+      "Mablag‘",
+      "Mag‘rib",
+      "Ig‘lib",
+      "Ig‘fir",
+      "Istag‘ola",
+      "Yashtag‘ilu",
+      "Istag‘faro",
+      "Yastag‘firu"
+    ],
+    "kirilchaUqilishi": [
+      "Ғо",
+      "Ғи",
+      "Ғу",
+      "Ғом",
+      "Ғоб",
+      "Ғил",
+      "Ғойру",
+      "Баъғлу",
+      "Фарғу",
+      "Ғобғоб",
+      "Маблағ",
+      "Маъғриб",
+      "Иғлиб",
+      "Иғфир",
+      "Истаг‘ола",
+      "Яштаг‘илу",
+      "Истаг‘фаро",
+      "Ястаг‘фиру"
+    ]
+  },
+  {
+    "id": 23,
+    "harf": "ع",
+    "misollar": [
+      "عَ",
+      "عِ",
+      "عُ",
+      "بِعْ",
+      "عَنْ",
+      "عَمْ",
+      "سَعْ",
+      "مَعَ",
+      "عَرَبْ",
+      "عَجَمْ",
+      "عَجَبْ",
+      "عَمَلْ",
+      "عِلْمُ",
+      "عُمْرُ",
+      "جَمْعُ",
+      "جَعْلُ",
+      "عَبْعَبْ",
+      "عَسْكَرْ",
+      "عَيْلَمْ",
+      "جَعْفَرْ",
+      "عَنْبَرْ",
+      "غَيْنُ-عَيْنُ",
+      "بَغْلُ-بَعْلُ",
+      "بَلْغُ-بَلْعُ"
+    ],
+    "uzbekchaUqilishi": [
+      "A‘",
+      "I‘",
+      "U‘",
+      "Bi‘",
+      "‘An",
+      "‘Am",
+      "Sa‘",
+      "Ma‘a",
+      "‘Arob",
+      "‘Ajam",
+      "‘Ajab",
+      "‘Amal",
+      "‘Ilmu",
+      "‘Umru",
+      "Jam‘u",
+      "Ja‘lu",
+      "‘Ab‘ab",
+      "‘Askar",
+      "‘Aylam",
+      "Ja‘far",
+      "‘Anbar",
+      "G‘oynu-‘Aynu",
+      "Ba‘lu-Ba‘lu",
+      "Bal‘u-Bal‘u"
+    ],
+    "kirilchaUqilishi": [
+      "Аъ",
+      "Иъ",
+      "Уъ",
+      "Биъ",
+      "Ъан",
+      "Ъам",
+      "Саъ",
+      "Маъа",
+      "Ъараб",
+      "Ъажам",
+      "Ъажаб",
+      "Ъамал",
+      "Ъилму",
+      "Ъумру",
+      "Жамъу",
+      "Жаълу",
+      "Ъабъаб",
+      "Ъаскар",
+      "Ъайлам",
+      "Жаъфар",
+      "Ъанбар",
+      "Ғойну-Ъайну",
+      "Бағлу-Баълу",
+      "Балғу-Балъу"
+    ]
+  },
+  {
+    "id": 24,
+    "harf": "د",
+    "misollar": [
+      "دَ",
+      "دِ",
+      "دُ",
+      "دُمْ",
+      "دُبْ",
+      "دُفْ",
+      "رِدْ",
+      "زِرْ",
+      "تَدْ",
+      "دَرْسُ",
+      "دَفْعُ",
+      "دَبْغُ",
+      "دَلْكُ",
+      "دَهْرُ",
+      "دُهْنُ",
+      "دُلْدُلْ",
+      "فُدْفُدْ",
+      "هُدْهُدْ",
+      "اُشْدُدْ",
+      "اِعْتَدَلَ",
+      "يَعْتَدِلُ",
+      "اِسْتَرْشَدَ",
+      "يَسْتَرْشِدُ"
+    ],
+    "uzbekchaUqilishi": [
+      "Da",
+      "Di",
+      "Du",
+      "Dum",
+      "Dub",
+      "Duf",
+      "Rid",
+      "Zir",
+      "Tad",
+      "Darsu",
+      "Daf'u",
+      "Dabg'u",
+      "Dalku",
+      "Dahru",
+      "Duhnu",
+      "Duldul",
+      "Fudfud",
+      "Hudhud",
+      "Ushdud",
+      "I'tadala",
+      "Ya'tadilu",
+      "Istarshada",
+      "Yastarshidu"
+    ],
+    "kirilchaUqilishi": [
+      "Да",
+      "Ди",
+      "Ду",
+      "Дум",
+      "Дуб",
+      "Дуф",
+      "Рид",
+      "Зир",
+      "Тад",
+      "Дарсу",
+      "Дафъу",
+      "Дабғу",
+      "Далку",
+      "Дахру",
+      "Духну",
+      "Дулдул",
+      "Фудфуд",
+      "Худхуд",
+      "Ушдуд",
+      "Иътадала",
+      "Яътадилу",
+      "Истаршада",
+      "Ястаршиду"
+    ]
+  },
+  {
+    "id": 25,
+    "harf": "ض",
+    "misollar": [
+      "ضَ",
+      "ضِ",
+      "ضُ",
+      "ضَيفُ",
+      "عَضْلُ",
+      "ضَهْبُ",
+      "ضَبْطُ",
+      "ضَغْفُ",
+      "عَرْضُ",
+      "مَضْرِبْ",
+      "مِضْرَبْ",
+      "اِضْرِبْ",
+      "تَضْرِبُ",
+      "اَضْرِبُ",
+      "نَضْرِبُ",
+      "اِضْطَرَبَ",
+      "يَضْطَرِبُ",
+      "اِسْتَضْعَفَ",
+      "دَرْسُ-ضَرْسُ",
+      "وَعْدُ-وَضْعُ",
+      "بَعْدُ-بَعْضُ"
+    ],
+    "uzbekchaUqilishi": [
+      "Zo",
+      "Zi",
+      "Zu",
+      "Zoyfu",
+      "A‘zlu",
+      "Zohbu",
+      "Zobtu",
+      "Zog‘fu",
+      "A‘rzu",
+      "Mazrib",
+      "Mizrob",
+      "Izrib",
+      "Tazribu",
+      "Azribu",
+      "Nazribu",
+      "Iztoroba",
+      "Yaztoribu",
+      "Istaz‘afa",
+      "Darsu-Zorsu",
+      "Vad‘u-Vaz‘u",
+      "Ba‘du-Ba‘z‘u"
+    ],
+    "kirilchaUqilishi": [
+      "Зо",
+      "Зи",
+      "Зу",
+      "Зойфу",
+      "Аъзлу",
+      "Зоҳбу",
+      "Зобту",
+      "Зоғфу",
+      "Аързу",
+      "Мазриб",
+      "Мизроб",
+      "Изриб",
+      "Тазрибу",
+      "Азрибу",
+      "Назрибу",
+      "Изтороба",
+      "Язторибу",
+      "Истазъафу",
+      "Дарсу-Зорса",
+      "Ваъду-Вазъу",
+      "Баъду-Баъзу"
+    ]
+  },
+  {
+    "id": 26,
+    "harf": "ذ",
+    "misollar": [
+      "ذَ",
+      "ذِ",
+      "ذُ",
+      "مُذْ",
+      "جُذْ",
+      "عُذْ",
+      "ذُبْ",
+      "ذُقْ",
+      "ذَرْ",
+      "مُنْذُ",
+      "بَذْلُ",
+      "ذِكْرُ",
+      "ذِهْنُ",
+      "ذَهَبْ",
+      "مَذْهَبْ",
+      "ذَهَلَ",
+      "يَذْهَلُ",
+      "بَذَلَ",
+      "يَبْذُلُ",
+      "أَذْهَبَ",
+      "يُذْهِبُ",
+      "ذِفْرُ-زِفْرُ",
+      "بَذْلُ-بَزْلُ",
+      "أَبْذَلَ-أَبْزَلَ"
+    ],
+    "uzbekchaUqilishi": [
+      "Za",
+      "Zi",
+      "Zu",
+      "Muz",
+      "Juz",
+      "‘Uz",
+      "Zub",
+      "Zuq",
+      "Zar",
+      "Munzu",
+      "Bazlu",
+      "Zikru",
+      "Zihnu",
+      "Zahab",
+      "Mazhab",
+      "Zahala",
+      "Yazhalu",
+      "Bazala",
+      "Yabzulu",
+      "Azhaba",
+      "Yuzhibu",
+      "Zifru-Zifru",
+      "Bazlu-Bazlu",
+      "Abzala-Abzala"
+    ],
+    "kirilchaUqilishi": [
+      "За",
+      "Зи",
+      "Зу",
+      "Муз",
+      "Жуз",
+      "Ъуз",
+      "Зуб",
+      "Зуқ",
+      "Зар",
+      "Мунзу",
+      "Базлу",
+      "Зикру",
+      "Зиҳну",
+      "Заҳаб",
+      "Мазҳаб",
+      "Заҳала",
+      "Язҳалу",
+      "Базала",
+      "Ябзулу",
+      "Азҳаба",
+      "Юзҳибу",
+      "Зифру-Зифру",
+      "Базлу-Базлу",
+      "Абзала-Абзала"
     ]
   }
 ].map((json) => Harf.fromJson(json)).toList();

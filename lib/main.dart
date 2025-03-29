@@ -1,13 +1,35 @@
+import 'package:arab_tilini_urganaman/bottom.dart';
+import 'package:arab_tilini_urganaman/font_size_provider.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:arab_tilini_urganaman/home_dart.dart';
-import 'package:arab_tilini_urganaman/home_page.dart';
-import 'package:arab_tilini_urganaman/settings_screen.dart';
-import 'package:arab_tilini_urganaman/test_screen.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await EasyLocalization.ensureInitialized(); // EasyLocalizationni boshlash
+
+  runApp(
+    EasyLocalization(
+      supportedLocales: const [
+        Locale('en', 'US'),
+        Locale('uz', 'UZ'),
+        Locale('ru', 'RU'),
+        Locale('uz', 'Cyrl_UZ')
+      ],
+      startLocale: const Locale("en", "US"),
+      path: 'assets/translations',
+      fallbackLocale: const Locale('en', 'US'),
+      child: MultiProvider(
+        providers: [
+          ChangeNotifierProvider(create: (_) => FontSizeProvider()),
+        ],
+        child: const MyApp(),
+      ),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -15,80 +37,35 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    context.setLocale(const Locale('uz', 'UZ'));
     return ScreenUtilInit(
-      designSize: const Size(375, 812), // Figma yoki dizayn o'lchami
+      designSize: const Size(375, 812),
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) {
         return MaterialApp(
           theme: ThemeData(
-              scaffoldBackgroundColor: kWhite,
-              appBarTheme: const AppBarTheme(
-                  backgroundColor: kWhite,
-                  centerTitle: true,
-                  surfaceTintColor: kWhite)),
+            scaffoldBackgroundColor: kWhite,
+            appBarTheme: AppBarTheme(
+              backgroundColor: kWhite,
+              centerTitle: true,
+              surfaceTintColor: kWhite,
+            ),
+          ),
+          localizationsDelegates: [
+            GlobalMaterialLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+            ...context.localizationDelegates,
+          ],
+          supportedLocales: context.supportedLocales,
+          locale: context.locale,
           debugShowCheckedModeBanner: false,
-          home: const HarflarScreen(),
+          home: const MyHomePage(),
         );
       },
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
-
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _currentIndex = 0;
-  final List<Widget> _screens = [
-    HomePage(),
-    TestScreen(),
-    SettingsScreen(),
-  ];
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: _screens[_currentIndex],
-      bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: Colors.white,
-        selectedItemColor: const Color.fromARGB(255, 33, 135, 243),
-        iconSize: 25,
-        unselectedLabelStyle: const TextStyle(fontSize: 20),
-        selectedLabelStyle: const TextStyle(fontSize: 20),
-        currentIndex: _currentIndex,
-        onTap: (index) {
-          setState(() {
-            _currentIndex = index;
-          });
-        },
-        items: const [
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.menu_book,
-            ),
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.playlist_add_check,
-            ),
-            label: 'Test',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.settings,
-            ),
-            label: 'Settings',
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-const Color kWhite = Colors.white;
+Color kWhite = const Color.fromARGB(255, 255, 255, 255);

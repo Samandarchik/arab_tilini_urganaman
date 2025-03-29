@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:arab_tilini_urganaman/detailes_screen.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({super.key});
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();

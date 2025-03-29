@@ -1,0 +1,149 @@
+{
+
+    "lesson": "Dars",
+    "home": "Asosiy",
+    "setting": "Sozlamalar",
+    "quiz": "Test",
+
+
+    "harf0:0": "\"Alif\" - Ushbu harfning yozuvdagi vazifasi undan oldin, ustida yoki ostidagi belgi va harakatlarga bog'liq. Alohida quyidagicha yoziladi:",
+    "harf0:1": "\"Alif\" - So'z boshida quyidagicha yoziladi. ≤ belgisi \"hamza\" deb ataladi. Alifni hamza bilan ko'rsangiz, hamza ushlab turgan harakatni o'qing. Ustiga chiziqcha - \"fatha\" qo'shilsa, \"a\" deb o'qiladi.",
+    "harf0:2": "\"Alif\" - So'z o'rtasida quyidagicha yoziladi. Tagiga chiziqcha - \"kasra\" qo'shilsa, \"i\" deb o'qiladi. \"Alif\" o'zidan keyingi harfga qo'shilmay yoziladi.",
+    "harf0:3": "\"Alif\" - So'z oxirida quyidagicha yoziladi. Ustiga vergulga o'xshash harakat - \"zamma\" qo'shilsa, \"u\" deb o'qiladi.",
+    
+    
+    "harf1:0": "\"Ro\" - Biz o'rganayotgan arab tilida yagona titroqchi harf hisoblanadi. Talaffuzi o'zbek tilidagi \"r\" harfiga o'xshash, lekin arab tilidagi \"z\" harfi qattiqroq va til uchining titrashi bilan farq qiladi. Eslatma: Faqat fatha holatida \"ra\" emas, balki \"a\"ni \"o\" qilib, \"ro\" deb o'qiladi. \"Ro\" harfining talaffuzi \"Tartil\" kitobimizda batafsil berilgan.",
+    "harf1:1": "\"Ro\" - So'z o'rtasida quyidagicha yoziladi. Tagiga chiziqcha - \"kasra\" qo'shilsa, \"ri\" deb o'qiladi. \"Ro\" harfi o'zidan keyingi harfga qo'shilmay yoziladi.",
+    "harf1:2": "\"Ro\" - So'z oxirida quyidagicha yoziladi. Ustiga vergulga o'xshash harakat - \"zamma\" qo'shilsa, \"ru\" deb o'qiladi.",
+    "harf1:3": "Agar harfdan keyin \"fatha (a)\", \"kasra (i)\" yoki \"zamma (u)\" bo'lmasa, balki kichik doira __ shakli bo'lsa, to'xtab o'qiladi. Masalan: ap * ji. MakTa6 *",
+    
+    "harf2:0": "\"Za\" - Ushbu harf o'zbek tilidagi \"z\" harfi kabi talaffuz qilinadi. Alohida quyidagicha yoziladi:",
+    "harf2:1": "\"Za\" - So'z boshida quyidagicha yoziladi. Ustiga chiziqcha - \"fatha\" qo'shilsa, \"za\" deb o'qiladi. \"Za\" harfi o'zidan keyingi harfga ulanmaydigan olti harfning biridir.",
+    "harf2:2": "\"Za\" - So'z o'rtasida quyidagicha yoziladi. Tagiga chiziqcha - \"kasra\" qo'shilsa, \"zi\" deb o'qiladi. \"Za\" harfi o'zidan keyingi harfga qo'shilmay yoziladi.",
+    "harf2:3": "\"Za\" - So'z oxirida quyidagicha yoziladi. Ustiga vergulga o'xshash harakat - \"zamma\" qo'shilsa, \"zu\" deb o'qiladi.",
+  
+    "harf3:0": "\"Mim\" - Ushbu harf o'zbek tilidagi \"m\" harfi kabi talaffuz qilinadi. Alohida quyidagicha yoziladi:",
+    "harf3:1": "\"Mim\" - So'z boshida quyidagicha yoziladi. Ustiga chiziqcha - \"fatha\" qo'shilsa, \"ma\" deb o'qiladi.",
+    "harf3:2": "\"Mim\" - So'z o'rtasida quyidagicha yoziladi. Tagiga chiziqcha - \"kasra\" qo'shilsa, \"mi\" deb o'qiladi.",
+    "harf3:3": "\"Mim\" - So'z oxirida quyidagicha yoziladi. Ustiga vergulga o'xshash harakat - \"zamma\" qo'shilsa, \"mu\" deb o'qiladi.",
+    
+    "harf4:0": "\"Ta\" - Ushbu harf o'zbek tilidagi \"t\" harfi kabi talaffuz qilinadi. Ushbu harf to'rt xil ko'rinishga ega. Alohida quyidagicha yoziladi:",
+    "harf4:1": "\"Ta\" - So'z boshida quyidagicha yoziladi. Ustiga chiziqcha - \"fatha\" qo'shilsa, \"ta\" deb o'qiladi.",
+    "harf4:2": "\"Ta\" - So'z o'rtasida quyidagicha yoziladi. Tagiga chiziqcha - \"kasra\" qo'shilsa, \"ti\" deb o'qiladi.",
+    "harf4:3": "\"Ta\" - So'z oxirida quyidagicha yoziladi. Ustiga vergulga o'xshash harakat - \"zamma\" qo'shilsa, \"tu\" deb o'qiladi.",
+    
+    "harf5:0": "\"Nun\" - Ushbu harf o'zbek tilidagi \"n\" harfi kabi talaffuz qilinadi. Alohida quyidagicha yoziladi:",
+    "harf5:1": "\"Nun\" - So'z boshida quyidagicha yoziladi. Ustiga chiziqcha - \"fatha\" qo'shilsa, \"na\" deb o'qiladi.",
+    "harf5:2": "\"Nun\" - So'z o'rtasida quyidagicha yoziladi. Tagiga chiziqcha - \"kasra\" qo'shilsa, \"ni\" deb o'qiladi.",
+    "harf5:3": "\"Nun\" - So'z oxirida quyidagicha yoziladi. Ustiga vergulga o'xshash harakat - \"zamma\" qo'shilsa, \"nu\" deb o'qiladi.",
+    
+    "harf6:0": "\"Ya\" - Ushbu harf o'zbek tilidagi \"y\" harfiga to'g'ri keladi. Muayyan qoidalarga ko'ra qisqa yoki cho'ziq talaffuz qilinadi. Alohida quyidagicha yoziladi:",
+    "harf6:1": "\"Ya\" - So'z boshida quyidagicha yoziladi.",
+    "harf6:2": "\"Ya\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf6:3": "\"Ya\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf7:0": "\"Ba\" - Ushbu harf o'zbek tilidagi \"b\" harfi kabi talaffuz qilinadi. Yozuvda u harfi o'zidan oldingi va keyingi harflarga qo'shilib yoziladi. Ushbu harf to'rt xil ko'rinishda yoziladi. Alohida quyidagicha yoziladi:",
+    "harf7:1": "\"Ba\" - So'z boshida quyidagicha yoziladi.",
+    "harf7:2": "\"Ba\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf7:3": "\"Ba\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf8:0": "\"Kaf\" - Ushbu harf o'zbek tilidagi \"k\" harfi kabi talaffuz qilinadi. Alohida quyidagicha yoziladi:",
+    "harf8:1": "\"Kaf\" - So'z boshida quyidagicha yoziladi.",
+    "harf8:2": "\"Kaf\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf8:3": "\"Kaf\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf9:0": "\"Lam\" - Ushbu harf o'zbek tilidagi \"l\" harfiga nisbatan yumshoqroq talaffuz qilinadi. Alohida quyidagicha yoziladi:",
+    "harf9:1": "\"Lam\" - So'z boshida quyidagicha yoziladi.",
+    "harf9:2": "\"Lam\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf9:3": "\"Lam\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf10:0": "\"Vav\" - Ushbu harf o'zbek tilidagi \"v\" harfiga o'xshaydi. \"Vav\" tovushi ikkala labni bir oz ochish bilan chiqadi. Ingliz tilidagi \"w\" ga o'xshab ketadi. Alohida quyidagicha yoziladi:",
+    "harf10:1": "\"Vav\" - So'z boshida quyidagicha yoziladi.",
+    "harf10:2": "\"Vav\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf10:3": "\"Vav\" - So'z oxirida quyidagicha yoziladi.",
+
+    "harf11:0": "\"Xa\" - Ushbu harf o'zbek tilidagi (masalan: \"xil-xil\", \"xikoya\" degan so'zlardagi) \"x\" tovushiga o'xshaydi. Alohida quyidagicha yoziladi:",
+    "harf11:1": "\"Xa\" - So'z boshida quyidagicha yoziladi.",
+    "harf11:2": "\"Xa\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf11:3": "\"Xa\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf12:0": "\"Fa\" - Ushbu harf o'zbek tilidagi \"f\" harfiga o'xshaydi. Biroq bizning tilimizda \"f\" ko'pincha \"p\" ga o'xshab talaffuz qilinadi. Arab tilida esa \"p\" yo'q, shu bois e'tiborli bo'lish lozim. Alohida quyidagicha yoziladi:",
+    "harf12:1": "\"Fa\" - So'z boshida quyidagicha yoziladi.",
+    "harf12:2": "\"Fa\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf12:3": "\"Fa\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf13:0": "\"Qof\" - Ushbu harf o'zbek tilidagi \"k\" harfi kabi talaffuz qilinadi. Eslatma: Fatha holatida \"ka\" emas, balki \"a\"ni \"o\" qilib, \"qo\" deb o'qiladi. Alohida quyidagicha yoziladi:",
+    "harf13:1": "\"Qof\" - So'z boshida quyidagicha yoziladi.",
+    "harf13:2": "\"Qof\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf13:3": "\"Qof\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf14:0": "\"Shin\" - Ushbu harf o'zbek tilidagi \"sh\" harfi kabi talaffuz qilinadi. Alohida quyidagicha yoziladi:",
+    "harf14:1": "\"Shin\" - So'z boshida quyidagicha yoziladi.",
+    "harf14:2": "\"Shin\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf14:3": "\"Shin\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf15:0": "\"Sin\" - Ushbu harf o'zbek tilidagi \"s\" harfi kabi talaffuz qilinadi. Alohida quyidagicha yoziladi:",
+    "harf15:1": "\"Sin\" - So'z boshida quyidagicha yoziladi.",
+    "harf15:2": "\"Sin\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf15:3": "\"Sin\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf16:0": "\"Sa\" - Ushbu harf. O'zbek tilida uning o'xshashi yo'q. Ingliz tilidagi \"thank you\" dagi \"th\" talaffuziga o'xshaydi. Alohida quyidagicha yoziladi:",
+    "harf16:1": "\"Sa\" - So'z boshida quyidagicha yoziladi.",
+    "harf16:2": "\"Sa\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf16:3": "\"Sa\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf17:0": "\"Sod\" - Ushbu harf. O'zbek tilida bu harfning o'xshashi yo'q. Tilning old qismi va pastki old tishlarning yuqori qismidan chiqadi. Eslatma: Fatha holatida \"sa\" emas, balki \"a\"ni \"o\" qilib, \"so\" deb o'qiladi. Alohida quyidagicha yoziladi:",
+    "harf17:1": "\"Sod\" - So'z boshida quyidagicha yoziladi.",
+    "harf17:2": "\"Sod\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf17:3": "\"Sod\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf18:0": "\"To\" - Ushbu harf. O'zbek tilida buning o'xshashi yo'q. Tilning old qismi va yuqori tishlarning ichki qismidan chiqadi. Eslatma: Fatha holatida \"ta\" emas, balki \"a\"ni \"o\" qilib, \"to\" deb o'qiladi. Alohida quyidagicha yoziladi:",
+    "harf18:1": "\"To\" - So'z boshida quyidagicha yoziladi.",
+    "harf18:2": "\"To\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf18:3": "\"To\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf19:0": "\"Jim\" - Ushbu harf o'zbek tilidagi \"j\" harfi kabi talaffuz qilinadi. Alohida quyidagicha yoziladi:",
+    "harf19:1": "\"Jim\" - So'z boshida quyidagicha yoziladi.",
+    "harf19:2": "\"Jim\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf19:3": "\"Jim\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf20:0": "\"Xo\" - Ushbu harf. O'zbek tilidagi \"xuroz\" so'zidagi qattiq \"x\" harfiga o'xshaydi. Eslatma: Fatha holatida \"xa\" emas, balki \"a\"ni \"o\" qilib, \"xo\" deb o'qiladi. Alohida quyidagicha yoziladi:",
+    "harf20:1": "\"Xo\" - So'z boshida quyidagicha yoziladi.",
+    "harf20:2": "\"Xo\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf20:3": "\"Xo\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf21:0": "\"Xa\" - Ushbu harf. O'zbek tilida uning o'xshashi yo'q. O'zbek tilidagi \"xattoki\" so'zidagi yumshoq \"x\" ga sal-pal o'xshab ketadi. Alohida quyidagicha yoziladi:",
+    "harf21:1": "\"Xa\" - So'z boshida quyidagicha yoziladi.",
+    "harf21:2": "\"Xa\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf21:3": "\"Xa\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf22:0": "\"G'ayn\" - Ushbu harf o'zbek tilidagi \"G'\" undoshiga o'xshaydi. Eslatma: Fatha holatida \"g'a\" emas, balki \"a\"ni \"o\" qilib, \"g'o\" deb o'qiladi. Alohida quyidagicha yoziladi:",
+    "harf22:1": "\"G'ayn\" - So'z boshida quyidagicha yoziladi.",
+    "harf22:2": "\"G'ayn\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf22:3": "\"G'ayn\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf23:0": "\"Ayn\" - Arab harfi. O'zbek tilida uning o'xshashi mavjud emas. Halqumning o'rtasidan chiqadi. Alohida quyidagicha yoziladi:",
+    "harf23:1": "\"Ayn\" - So'z boshida quyidagicha yoziladi.",
+    "harf23:2": "\"Ayn\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf23:3": "\"Ayn\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf24:0": "\"Dal\" - Ushbu harf o'zbek tilidagi \"D\" ga o'xshaydi. Alohida quyidagicha yoziladi:",
+    "harf24:1": "\"Dal\" - So'z boshida quyidagicha yoziladi.",
+    "harf24:2": "\"Dal\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf24:3": "\"Dal\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf25:0": "\"Dod\" - Ushbu harf. Boshqa tillarda bu tovushning o'xshashi yo'q. Shu sababli arablar \"Ahlud-dod\" ya'ni, \"Dod\" harfini talaffuz qiluvchilar deb nomlanadi. Eslatma: Fatha holatida \"da\" emas, balki \"a\"ni \"o\" qilib, \"do\" deb o'qiladi. Alohida quyidagicha yoziladi:",
+    "harf25:1": "\"Dod\" - So'z boshida quyidagicha yoziladi.",
+    "harf25:2": "\"Dod\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf25:3": "\"Dod\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf26:0": "\"Zal\" - Ushbu harf. Uning tovushi o'zbek tilida yo'q. Tilning uchi bilan yuqori old tishlarning uchidan chiqadigan harf. Alohida quyidagicha yoziladi:",
+    "harf26:1": "\"Zal\" - So'z boshida quyidagicha yoziladi.",
+    "harf26:2": "\"Zal\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf26:3": "\"Zal\" - So'z oxirida quyidagicha yoziladi.",
+    
+    "harf27:0": "\"Zo\" - Ushbu harf. O'zbek tilida o'xshashi yo'q. Eslatma: Fatha holatida \"za\" emas, balki \"a\"ni \"o\" qilib, \"zo\" deb o'qiladi. Alohida quyidagicha yoziladi:",
+    "harf27:1": "\"Zo\" - So'z boshida quyidagicha yoziladi.",
+    "harf27:2": "\"Zo\" - So'z o'rtasida quyidagicha yoziladi.",
+    "harf27:3": "\"Zo\" - So'z oxirida quyidagicha yoziladi."
+}

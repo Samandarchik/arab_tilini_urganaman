@@ -1,159 +1,38 @@
+import 'package:arab_tilini_urganaman/quiz_model.dart';
 import 'package:flutter/material.dart';
 
-class QuizPage extends StatefulWidget {
-  const QuizPage({super.key});
-
-  @override
-  State<QuizPage> createState() => _QuizPageState();
-}
-
-class _QuizPageState extends State<QuizPage> {
-  final List<Map<String, dynamic>> quizzes = [
-    {
-      'savol': "Birdan keyin nechi keladi?",
-      'a': '2',
-      'b': '3',
-      'correct': '2',
-      'selected': '',
-    },
-    {
-      'savol': "Ikkidan keyin nechi keladi?",
-      'a': '3',
-      'b': '4',
-      'correct': '3',
-      'selected': '',
-    },
-    {
-      'savol': "Uchdan keyin nechi keladi?",
-      'a': '4',
-      'b': '5',
-      'correct': '4',
-      'selected': '',
-    },
-  ];
-  int currentQuestion = 0;
-  PageController controller = PageController();
-
-  void nextQuestion() {
-    if (currentQuestion != quizzes.length - 1) {
-      currentQuestion++;
-      setState(() {});
-      controller.nextPage(
-          duration: const Duration(milliseconds: 300),
-          curve: Curves.bounceInOut);
-    }
-  }
-
-  void previousQuestion() {
-    if (currentQuestion != 0) {
-      setState(() {});
-      currentQuestion--;
-      controller.previousPage(
-          duration: Duration(milliseconds: 300), curve: Curves.bounceInOut);
-    }
-  }
-
-  void onSelected(String option) async {
-    quizzes[currentQuestion]['selected'] = option;
-    setState(() {});
-    await Future.delayed(const Duration(seconds: 1));
-    nextQuestion();
-  }
-
-  bool isCorrectAnswerSelected(String option) {
-    if (quizzes[currentQuestion]['correct'] ==
-        quizzes[currentQuestion][option]) {
-      return true;
-    }
-    return false;
-  }
+class QuizPage extends StatelessWidget {
+  final QuizModel quiz;
+  const QuizPage({super.key, required this.quiz});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('${currentQuestion + 1} - savol'),
-      ),
+      appBar: AppBar(title: const Text("Quiz")),
       body: Padding(
-        padding: const EdgeInsets.all(20.0),
-        child: Center(
-          child: PageView.builder(
-            onPageChanged: (value) {
-              currentQuestion = value;
-              setState(() {});
-            },
-            controller: controller,
-            itemCount: quizzes.length,
-            itemBuilder: (context, index) => Column(
-              children: [
-                Text(quizzes[currentQuestion]['savol']),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    GestureDetector(
-                      onTap: () {
-                        onSelected(quizzes[currentQuestion]['a']);
-                      },
-                      child: Container(
-                        alignment: Alignment.center,
-                        height: 100,
-                        width: 100,
-                        color: quizzes[currentQuestion]['selected'].isEmpty
-                            ? Colors.grey
-                            : isCorrectAnswerSelected('a')
-                                ? Colors.green
-                                : Colors.red,
-                        child: Text("A: ${quizzes[currentQuestion]['a']}"),
-                      ),
-                    ),
-                    GestureDetector(
-                      onTap: () {
-                        onSelected(quizzes[currentQuestion]['b']);
-                      },
-                      child: Container(
-                        alignment: Alignment.center,
-                        height: 100,
-                        width: 100,
-                        color: quizzes[currentQuestion]['selected'].isEmpty
-                            ? Colors.grey
-                            : isCorrectAnswerSelected('b')
-                                ? Colors.green
-                                : Colors.red,
-                        child: Text("B: ${quizzes[currentQuestion]['b']}"),
-                      ),
-                    )
-                  ],
-                )
-              ],
-            ),
-          ),
-        ),
-      ),
-      bottomNavigationBar: Padding(
-        padding: const EdgeInsets.all(20.0),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            GestureDetector(
-              onTap: previousQuestion,
-              child: Container(
-                alignment: Alignment.center,
-                height: 50,
-                width: 50,
-                color: Colors.blue,
-                child: Text("Orqaga"),
-              ),
+            Text(
+              quiz.question,
+              style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
-            GestureDetector(
-              onTap: previousQuestion,
-              child: Container(
-                alignment: Alignment.center,
-                height: 50,
-                width: 50,
-                color: Colors.blue,
-                child: Text("Oldinga"),
-              ),
-            ),
+            const SizedBox(height: 20),
+            ...quiz.variants.entries.map((entry) {
+              return Padding(
+                padding: const EdgeInsets.symmetric(vertical: 5),
+                child: ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    padding: const EdgeInsets.symmetric(vertical: 12),
+                    textStyle: const TextStyle(fontSize: 18),
+                  ),
+                  child: Text(entry.value),
+                ),
+              );
+            }).toList(),
           ],
         ),
       ),

@@ -1,0 +1,177 @@
+{
+    "lesson": "Lesson",
+    "home": "Home",
+    "setting": "Setting",
+    "quiz": "Quiz",
+
+
+
+
+
+
+    "harf0:0": "\"Alif\" - The function of this letter in writing depends on the marks or diacritics (harakat) before, above, or below it. It is written separately as follows:",
+    "harf0:1": "\"Alif\" - At the beginning of a word, it is written as follows. The symbol ≤ is called \"hamza\". When you see Alif with hamza, read the vowel held by the hamza. If a line (fatha) is added above it, it is read as \"a\".",
+    "harf0:2": "\"Alif\" - In the middle of a word, it is written as follows. If a line (kasra) is added below it, it is read as \"i\". \"Alif\" is not connected to the following letter.",
+    "harf0:3": "\"Alif\" - At the end of a word, it is written as follows. If a comma-like diacritic (zamma) is added above it, it is read as \"u\".",
+
+    
+    "harf1:0": "\"Ro\" - In the Arabic language we are studying, this is the only trilled letter. Its pronunciation resembles the Uzbek \"r\" but is stronger and differs by the vibration of the tongue tip. Note: Only with fatha, it is not read as \"ra\" but rather the \"a\" becomes \"o\", making it \"ro\". The pronunciation of \"Ro\" is explained in detail in our \"Tartil\" book.",
+    "harf1:1": "\"Ro\" - In the middle of a word, it is written as follows. If a line (kasra) is added below it, it is read as \"ri\". \"Ro\" is not connected to the following letter.",
+    "harf1:2": "\"Ro\" - At the end of a word, it is written as follows. If a comma-like diacritic (zamma) is added above it, it is read as \"ru\".",
+    "harf1:3": "If there is no diacritic - \"fatha (a)\", \"kasra (i)\", or \"zamma (u)\" after a letter, but instead a small circle __ shape, it indicates a stop in pronunciation. Example: ap * ji. MakTa6 *",
+    
+
+    "harf2:0": "\"Za\" - This letter is pronounced like the Uzbek \"z\". It is written separately as follows:",
+    "harf2:1": "\"Za\" - At the beginning of a word, it is written as follows. If a line (fatha) is added above it, it is read as \"za\". \"Za\" is one of the six letters that do not connect to the following letter.",
+    "harf2:2": "\"Za\" - In the middle of a word, it is written as follows. If a line (kasra) is added below it, it is read as \"zi\". \"Za\" is not connected to the following letter.",
+    "harf2:3": "\"Za\" - At the end of a word, it is written as follows. If a comma-like diacritic (zamma) is added above it, it is read as \"zu\".",
+  
+
+    "harf3:0": "\"Mim\" - This letter is pronounced like the Uzbek \"m\". It is written separately as follows:",
+    "harf3:1": "\"Mim\" - At the beginning of a word, it is written as follows. If a line (fatha) is added above it, it is read as \"ma\".",
+    "harf3:2": "\"Mim\" - In the middle of a word, it is written as follows. If a line (kasra) is added below it, it is read as \"mi\".",
+    "harf3:3": "\"Mim\" - At the end of a word, it is written as follows. If a comma-like diacritic (zamma) is added above it, it is read as \"mu\".",
+    
+
+    "harf4:0": "\"Ta\" - This letter is pronounced like the Uzbek \"t\". It has four forms. It is written separately as follows:",
+    "harf4:1": "\"Ta\" - At the beginning of a word, it is written as follows. If a line (fatha) is added above it, it is read as \"ta\".",
+    "harf4:2": "\"Ta\" - In the middle of a word, it is written as follows. If a line (kasra) is added below it, it is read as \"ti\".",
+    "harf4:3": "\"Ta\" - At the end of a word, it is written as follows. If a comma-like diacritic (zamma) is added above it, it is read as \"tu\".",
+    
+
+    "harf5:0": "\"Nun\" - This letter is pronounced like the Uzbek \"n\". It is written separately as follows:",
+    "harf5:1": "\"Nun\" - At the beginning of a word, it is written as follows. If a line (fatha) is added above it, it is read as \"na\".",
+    "harf5:2": "\"Nun\" - In the middle of a word, it is written as follows. If a line (kasra) is added below it, it is read as \"ni\".",
+    "harf5:3": "\"Nun\" - At the end of a word, it is written as follows. If a comma-like diacritic (zamma) is added above it, it is read as \"nu\".",
+    
+
+    "harf6:0": "\"Ya\" - This letter corresponds to the Uzbek \"y\". Depending on specific rules, it can be pronounced short or long. It is written separately as follows:",
+    "harf6:1": "\"Ya\" - At the beginning of a word, it is written as follows.",
+    "harf6:2": "\"Ya\" - In the middle of a word, it is written as follows.",
+    "harf6:3": "\"Ya\" - At the end of a word, it is written as follows.",
+    
+
+    "harf7:0": "\"Ba\" - This letter is pronounced like the Uzbek \"b\". In writing, it connects to both the preceding and following letters. It has four forms. It is written separately as follows:",
+    "harf7:1": "\"Ba\" - At the beginning of a word, it is written as follows.",
+    "harf7:2": "\"Ba\" - In the middle of a word, it is written as follows.",
+    "harf7:3": "\"Ba\" - At the end of a word, it is written as follows.",
+    
+
+    "harf8:0": "\"Kaf\" - This letter is pronounced like the Uzbek \"k\". It is written separately as follows:",
+    "harf8:1": "\"Kaf\" - At the beginning of a word, it is written as follows.",
+    "harf8:2": "\"Kaf\" - In the middle of a word, it is written as follows.",
+    "harf8:3": "\"Kaf\" - At the end of a word, it is written as follows.",
+    
+
+    "harf9:0": "\"Lam\" - This letter is pronounced softer than the Uzbek \"l\". It is written separately as follows:",
+    "harf9:1": "\"Lam\" - At the beginning of a word, it is written as follows.",
+    "harf9:2": "\"Lam\" - In the middle of a word, it is written as follows.",
+    "harf9:3": "\"Lam\" - At the end of a word, it is written as follows.",
+    
+
+    "harf10:0": "\"Waw\" - This letter is similar to the Uzbek 'v' sound. The 'Waw' sound is produced with a slight opening of both lips. It resembles the English 'w'. It is written separately as follows:",
+    "harf10:1": "\"Waw\" - At the beginning of a word, it is written as follows.",
+    "harf10:2": "\"Waw\" - In the middle of a word, it is written as follows.",
+    "harf10:3": "\"Waw\" - At the end of a word, it is written as follows.",
+
+    "harf11:0": "\"Kha\" - This letter resembles the Uzbek \"kh\" sound (as in words like \"khil-khil\", \"hikoya\"). It is written separately as follows:",
+    "harf11:1": "\"Kha\" - At the beginning of a word, it is written as follows.",
+    "harf11:2": "\"Kha\" - In the middle of a word, it is written as follows.",
+    "harf11:3": "\"Kha\" - At the end of a word, it is written as follows.",
+    
+
+    "harf12:0": "\"Fa\" - This letter is like the Uzbek \"f\". However, in our language, \"f\" is often pronounced like \"p\". In Arabic, there is no \"p\", so special attention is needed. It is written separately as follows:",
+    "harf12:1": "\"Fa\" - At the beginning of a word, it is written as follows.",
+    "harf12:2": "\"Fa\" - In the middle of a word, it is written as follows.",
+    "harf12:3": "\"Fa\" - At the end of a word, it is written as follows.",
+    
+
+    "harf13:0": "\"Qof\" - This letter is pronounced like the Uzbek \"k\". Note: With fatha, it is not read as \"ka\" but rather the \"a\" becomes \"o\", making it \"qo\". It is written separately as follows:",
+    "harf13:1": "\"Qof\" - At the beginning of a word, it is written as follows.",
+    "harf13:2": "\"Qof\" - In the middle of a word, it is written as follows.",
+    "harf13:3": "\"Qof\" - At the end of a word, it is written as follows.",
+    
+
+    "harf14:0": "\"Shin\" - This letter is pronounced like the Uzbek \"sh\". It is written separately as follows:",
+    "harf14:1": "\"Shin\" - At the beginning of a word, it is written as follows.",
+    "harf14:2": "\"Shin\" - In the middle of a word, it is written as follows.",
+    "harf14:3": "\"Shin\" - At the end of a word, it is written as follows.",
+    
+
+    "harf15:0": "\"Sin\" - This letter is pronounced like the Uzbek \"s\". It is written separately as follows:",
+    "harf15:1": "\"Sin\" - At the beginning of a word, it is written as follows.",
+    "harf15:2": "\"Sin\" - In the middle of a word, it is written as follows.",
+    "harf15:3": "\"Sin\" - At the end of a word, it is written as follows.",
+    
+
+    "harf16:0": "\"Tha\" - This letter has no equivalent in Uzbek. It resembles the English \"th\" sound in \"thank you\". It is written separately as follows:",
+    "harf16:1": "\"Tha\" - At the beginning of a word, it is written as follows.",
+    "harf16:2": "\"Tha\" - In the middle of a word, it is written as follows.",
+    "harf16:3": "\"Tha\" - At the end of a word, it is written as follows.",
+    
+
+    "harf17:0": "\"Sad\" - This letter has no equivalent in Uzbek. It is pronounced from the front part of the tongue and the upper front teeth. Note: With fatha, it is not read as \"sa\" but rather the \"a\" becomes \"o\", making it \"so\". It is written separately as follows:",
+    "harf17:1": "\"Sad\" - At the beginning of a word, it is written as follows.",
+    "harf17:2": "\"Sad\" - In the middle of a word, it is written as follows.",
+    "harf17:3": "\"Sad\" - At the end of a word, it is written as follows.",
+    
+
+    "harf18:0": "\"To\" - This letter has no equivalent in Uzbek. It is pronounced from the front part of the tongue and the inner part of the upper teeth. Note: With fatha, it is not read as \"ta\" but rather the \"a\" becomes \"o\", making it \"to\". It is written separately as follows:",
+    "harf18:1": "\"To\" - At the beginning of a word, it is written as follows.",
+    "harf18:2": "\"To\" - In the middle of a word, it is written as follows.",
+    "harf18:3": "\"To\" - At the end of a word, it is written as follows.",
+    
+
+    "harf19:0": "\"Jeem\" - This letter is pronounced like the Uzbek \"j\". It is written separately as follows:",
+    "harf19:1": "\"Jeem\" - At the beginning of a word, it is written as follows.",
+    "harf19:2": "\"Jeem\" - In the middle of a word, it is written as follows.",
+    "harf19:3": "\"Jeem\" - At the end of a word, it is written as follows.",
+    
+
+    "harf20:0": "\"Kho\" - This letter resembles the hard \"kh\" sound in the Uzbek word \"khuroz\". Note: With fatha, it is not read as \"kha\" but rather the \"a\" becomes \"o\", making it \"kho\". It is written separately as follows:",
+    "harf20:1": "\"Kho\" - At the beginning of a word, it is written as follows.",
+    "harf20:2": "\"Kho\" - In the middle of a word, it is written as follows.",
+    "harf20:3": "\"Kho\" - At the end of a word, it is written as follows.",
+    
+
+    "harf21:0": "\"Kha\" - This letter has no equivalent in Uzbek. It slightly resembles the soft \"kh\" in the Uzbek word \"khattoki\". It is written separately as follows:",
+    "harf21:1": "\"Kha\" - At the beginning of a word, it is written as follows.",
+    "harf21:2": "\"Kha\" - In the middle of a word, it is written as follows.",
+    "harf21:3": "\"Kha\" - At the end of a word, it is written as follows.",
+    
+
+    "harf22:0": "\"Ghayn\" - This letter is like the Uzbek consonant \"gh\". Note: With fatha, it is not read as \"gha\" but rather the \"a\" becomes \"o\", making it \"gho\". It is written separately as follows:",
+    "harf22:1": "\"Ghayn\" - At the beginning of a word, it is written as follows.",
+    "harf22:2": "\"Ghayn\" - In the middle of a word, it is written as follows.",
+    "harf22:3": "\"Ghayn\" - At the end of a word, it is written as follows.",
+    
+
+    "harf23:0": "\"Ayn\" - This Arabic letter has no equivalent in Uzbek. It is pronounced from the middle of the throat. It is written separately as follows:",
+    "harf23:1": "\"Ayn\" - At the beginning of a word, it is written as follows.",
+    "harf23:2": "\"Ayn\" - In the middle of a word, it is written as follows.",
+    "harf23:3": "\"Ayn\" - At the end of a word, it is written as follows.",
+    
+
+    "harf24:0": "\"Dal\" - This letter resembles the Uzbek \"D\". It is written separately as follows:",
+    "harf24:1": "\"Dal\" - At the beginning of a word, it is written as follows.",
+    "harf24:2": "\"Dal\" - In the middle of a word, it is written as follows.",
+    "harf24:3": "\"Dal\" - At the end of a word, it is written as follows.",
+    
+
+    "harf25:0": "\"Dhod\" - This sound has no equivalent in other languages. Arabs are called \"Ahlud-dhod\" (People of Dhod) because of this unique letter. Note: With fatha, it is not read as \"dha\" but rather the \"a\" becomes \"o\", making it \"dho\". It is written separately as follows:",
+    "harf25:1": "\"Dhod\" - At the beginning of a word, it is written as follows.",
+    "harf25:2": "\"Dhod\" - In the middle of a word, it is written as follows.",
+    "harf25:3": "\"Dhod\" - At the end of a word, it is written as follows.",
+    
+
+    "harf26:0": "\"Dhal\" - This sound does not exist in Uzbek. It is pronounced with the tip of the tongue and the tips of the upper front teeth. It is written separately as follows:",
+    "harf26:1": "\"Dhal\" - At the beginning of a word, it is written as follows.",
+    "harf26:2": "\"Dhal\" - In the middle of a word, it is written as follows.",
+    "harf26:3": "\"Dhal\" - At the end of a word, it is written as follows.",
+    
+
+    "harf27:0": "\"Dha\" - This letter has no exact equivalent in Uzbek. Note: With fatha, it is not read as \"dha\" but rather the \"a\" becomes \"o\", making it \"dho\". It is written separately as follows:",
+    "harf27:1": "\"Dha\" - At the beginning of a word, it is written as follows.",
+    "harf27:2": "\"Dha\" - In the middle of a word, it is written as follows.",
+    "harf27:3": "\"Dha\" - At the end of a word, it is written as follows."
+  }

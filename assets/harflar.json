@@ -1,7 +1,7 @@
 {
   "harflar": [
     {
-      "id": 1,
+      "id": 0,
       "tavsif": "Alif harfi so'z boshida bog'lanadi.",
       "harf": "ا",
       "misollar": [
@@ -100,7 +100,6 @@
         "نِ", 
         "نُ", 
         "اِنْ", 
-        "زِرْ", 
         "مَنْ", 
         "مِنْ", 
         "نَمْ", 
